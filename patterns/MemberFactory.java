@@ -1,3 +1,4 @@
+   // Factory class: creates Student or Faculty objects based on the type given
 public class MemberFactory {
     public static Member createMember(String type) {
         if (type.equalsIgnoreCase("student")) {
